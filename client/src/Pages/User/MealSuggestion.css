@@ -1,0 +1,43 @@
+.character-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .character-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .character-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .character-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .suggestion-enter {
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+  .suggestion-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .suggestion-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .suggestion-exit-active {
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 500ms, transform 500ms;
+  }
